@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eecaca;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #f6bfbf;;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    text-align:center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    padding: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+ .alert {
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.alert-warning strong {
+  color: #ffc107;
+}
+
+.alert button {
+  width:30px;
+  height:40px;
+  padding: 0.5rem 0.75rem;
+  margin-top: -0.25rem;
+  float: right;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.alert button:hover {
+  opacity: 0.8;
+}
+
+
+.success-msg {
+    position: absolute;
+    top: 97px;
+    left: 29%;
+    color: green;
+    font-size: 22px;
+}
